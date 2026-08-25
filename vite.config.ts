@@ -5,7 +5,7 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: './', // GitHub Pages white screen fix
+    base: '/My-Portfolio/', // GitHub Pages white screen fix
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
