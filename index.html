@@ -6,6 +6,20 @@
     <title>Syed Muhammad Ali | Creative Graphic Designer & Social Media Specialist</title>
     <meta name="description" content="Portfolio of Syed Muhammad Ali - Creative Graphic Designer, Social Media Creative Specialist, and Co-Founder of TECK HEAVEN." />
     
+    <!-- Single Page Apps for GitHub Pages redirect handler -->
+    <script>
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window))
+    </script>
+
     <!-- Open Graph / Meta -->
     <meta property="og:title" content="Syed Muhammad Ali | Creative Graphic Designer & Social Media Specialist" />
     <meta property="og:description" content="Explore high-converting social media creatives for Instagram & Facebook, brand identities, and corporate awards by Syed Muhammad Ali." />
@@ -37,4 +51,3 @@
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
